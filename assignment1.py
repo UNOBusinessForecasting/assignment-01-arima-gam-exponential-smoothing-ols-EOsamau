@@ -28,9 +28,8 @@ futuredata_proph = futuredata[['ds']]
 futuredata_proph.head()
 
 # %%
-forecast = model.predict(futuredata_proph)
+pred = model.predict(futuredata_proph)
 
-forecast
 
 # %%
 
